@@ -52,7 +52,7 @@ struct ContentView: View {
                 }
                 // Returning the total Per Person:
                 Section {
-                    Text("Total Per Person is: \(totalPerPerson, specifier: "%.2f") Rs")
+                    Text("Amount Per Person is: \(totalPerPerson, specifier: "%.2f") Rs")
                 }
                 
             }
