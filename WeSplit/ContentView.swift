@@ -41,7 +41,7 @@ struct ContentView: View {
                         }
                     }
                 }
-                // Adding Semented Control for Tip:
+                // Adding Segmented Control for Tip:
                 
                 Section(header: Text("How much tip do you wanna leave?")) {
                     Picker("Tip", selection: $amountOfTip){
